@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Abay</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+      <h1>Muhammad Nur Rizky Akbar</h1>
+      <img src="abay.jpeg" alt="Foto Abay">
+    </header>
+
+    <main>
+      <section class="intro">
+        <p>
+          Saya adalah mahasiswa Teknik Informatika di UNISKA yang tertarik pada dunia pemrograman, 
+          terutama Python dan SQL. Saya senang mempelajari hal baru seputar teknologi seperti 
+          pengembangan web, database, dan software engineering. Bagi saya, teknologi bukan sekadar alat, 
+          melainkan sarana untuk menciptakan solusi yang bermanfaat bagi banyak orang.
+        </p>
+      </section>
+
+      <!-- Hobi -->
+      <section>
+        <h2>Hobi</h2>
+        <div class="scroll-buttons">
+          <button onclick="scrollLeft('hobi')">◀</button>
+          <button onclick="scrollRight('hobi')">▶</button>
+        </div>
+        <div id="hobi" class="scroll-container">
+          <div class="card"><h3>Main Catur</h3><p>Meningkatkan fokus dan strategi berpikir.</p></div>
+          <div class="card"><h3>Streaming Film</h3><p>Menikmati ide dan visual dari berbagai genre.</p></div>
+          <div class="card"><h3>Mendengarkan Musik</h3><p>Membantu relaksasi dan menjaga semangat.</p></div>
+        </div>
+      </section>
+
+      <!-- Soft Skills -->
+      <section>
+        <h2>Soft Skills</h2>
+        <div class="scroll-buttons">
+          <button onclick="scrollLeft('skills')">◀</button>
+          <button onclick="scrollRight('skills')">▶</button>
+        </div>
+        <div id="skills" class="scroll-container">
+          <div class="card"><h3>Rasa Ingin Tahu</h3><p>Saya senang memahami teknologi secara mendalam.</p></div>
+          <div class="card"><h3>Belajar Mandiri</h3><p>Saya terbiasa belajar bertahap dari dasar ke lanjutan.</p></div>
+          <div class="card"><h3>Analitis & Teliti</h3><p>Senang menganalisis dan mencari solusi logis.</p></div>
+          <div class="card"><h3>Komunikatif</h3><p>Dapat menyampaikan ide dengan jelas dan terstruktur.</p></div>
+        </div>
+      </section>
+
+      <!-- Keterampilan Teknis -->
+<section>
+  <h2>Keterampilan Yang Dipelajari</h2>
+  <div class="scroll-buttons">
+    <button onclick="scrollLeft('tech')">◀</button>
+    <button onclick="scrollRight('tech')">▶</button>
+  </div>
+
+ <!-- Keterampilan Teknis -->
+
+  <div id="tech" class="scroll-container">
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="tech-logo">
+      <h3>Python</h3>
+      <p>Menguasai dasar pemrograman dan logika menggunakan Python.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" class="tech-logo">
+      <h3>SQL</h3>
+      <p>Mampu mengelola dan mengolah data menggunakan bahasa SQL.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="tech-logo">
+      <h3>HTML</h3>
+      <p>Mampu membuat struktur halaman web yang rapi dan semantik.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="tech-logo">
+      <h3>CSS</h3>
+      <p>Mendesain tampilan web dengan gaya modern dan responsif.</p>
+    </div>
+    <div class="card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="tech-logo">
+      <h3>JavaScript</h3>
+      <p>Menambahkan interaktivitas dan logika dinamis pada halaman web.</p>
+    </div>
+  </div>
+</section>
+
+
+
+      <!-- Kontak -->
+      <section>
+        <h2>Kontak</h2>
+        <div class="contact-container">
+          <a href="https://www.instagram.com/r.rizkyakbar_?igsh=MXFwc2hzMmVxcGRkcg==" target="_blank" class="contact-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram">
+            <p>@r.rizkyakbar_</p>
+          </a>
+          <a href="mailto:rizkyrizkyxyz@gmail.com" class="contact-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+            <p>rizkyrizkyxyz@gmail.com</p>
+          </a>
+          <a href="tel:+6281234567890" class="contact-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="Telepon">
+            <p>+62 821-5919-4307</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>📧 <a href="mailto:rizkyrizkyxyz@gmail.com">rizkyrizkyxyz@gmail.com</a></p>
+      <p>📞 <a href="tel:+6282159194307">+62 821-5919-4307</a></p>
+      <p>📷 <a href="https://www.instagram.com/r.rizkyakbar_?igsh=MXFwc2hzMmVxcGRkcg==" target="_blank">@r.rizkyakbar_</a></p>
+      <div class="footer-line"></div>
+      <p class="credit">© 2025 Muhammad Nur Rizky Akbar</p>
+    </footer>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
